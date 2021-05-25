@@ -1,6 +1,6 @@
 {
   "name": "@evanrs/fetch",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Fetch, but with types.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/evanrs/fetch#readme",
   "dependencies": {
     "isomorphic-unfetch": "3.1.0"
+  },
+  "devDependencies": {
+    "encoding": "0.1.13"
   }
 }
